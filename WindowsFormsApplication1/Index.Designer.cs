@@ -31,24 +31,24 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.checkedListBox = new System.Windows.Forms.CheckedListBox();
+            this.groupBoxN = new System.Windows.Forms.GroupBox();
+            this.textBoxN = new System.Windows.Forms.TextBox();
+            this.groupBoxMax = new System.Windows.Forms.GroupBox();
+            this.textBoxMax = new System.Windows.Forms.TextBox();
+            this.groupBoxMin = new System.Windows.Forms.GroupBox();
+            this.textBoxMin = new System.Windows.Forms.TextBox();
             this.buttonВычислить = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Xi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.КоличествоЗнаковПослеЗапитой = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.checkedListBox = new System.Windows.Forms.CheckedListBox();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxN.SuspendLayout();
+            this.groupBoxMax.SuspendLayout();
+            this.groupBoxMin.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -79,9 +79,9 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel3.Controls.Add(this.groupBox5, 3, 0);
-            this.tableLayoutPanel3.Controls.Add(this.groupBox3, 2, 0);
-            this.tableLayoutPanel3.Controls.Add(this.groupBox2, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.groupBox1, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.groupBoxN, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.groupBoxMax, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.groupBoxMin, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -96,78 +96,91 @@
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox5.Location = new System.Drawing.Point(411, 3);
+            this.groupBox5.Location = new System.Drawing.Point(453, 3);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(266, 89);
+            this.groupBox5.Size = new System.Drawing.Size(296, 108);
             this.groupBox5.TabIndex = 3;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Вид распределения";
             // 
-            // groupBox3
+            // checkedListBox
             // 
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox3.Location = new System.Drawing.Point(275, 3);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(130, 89);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Количество значений:";
+            this.checkedListBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkedListBox.FormattingEnabled = true;
+            this.checkedListBox.Items.AddRange(new object[] {
+            "Betta",
+            "Нормальное(Гаусса)",
+            "Равновероятное"});
+            this.checkedListBox.Location = new System.Drawing.Point(3, 23);
+            this.checkedListBox.Name = "checkedListBox";
+            this.checkedListBox.Size = new System.Drawing.Size(290, 82);
+            this.checkedListBox.TabIndex = 0;
             // 
-            // textBox3
+            // groupBoxN
             // 
-            this.textBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox3.Location = new System.Drawing.Point(3, 59);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(124, 27);
-            this.textBox3.TabIndex = 0;
-            this.textBox3.Text = "100";
+            this.groupBoxN.Controls.Add(this.textBoxN);
+            this.groupBoxN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxN.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBoxN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBoxN.Location = new System.Drawing.Point(303, 3);
+            this.groupBoxN.Name = "groupBoxN";
+            this.groupBoxN.Size = new System.Drawing.Size(144, 108);
+            this.groupBoxN.TabIndex = 2;
+            this.groupBoxN.TabStop = false;
+            this.groupBoxN.Text = "Количество значений:";
             // 
-            // groupBox2
+            // textBoxN
             // 
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox2.Location = new System.Drawing.Point(139, 3);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(130, 89);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Значение Бета:";
+            this.textBoxN.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBoxN.Location = new System.Drawing.Point(3, 78);
+            this.textBoxN.Name = "textBoxN";
+            this.textBoxN.Size = new System.Drawing.Size(138, 27);
+            this.textBoxN.TabIndex = 0;
+            this.textBoxN.Text = "100";
             // 
-            // textBox2
+            // groupBoxMax
             // 
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox2.Location = new System.Drawing.Point(3, 59);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(124, 27);
-            this.textBox2.TabIndex = 0;
-            this.textBox2.Text = "5";
+            this.groupBoxMax.Controls.Add(this.textBoxMax);
+            this.groupBoxMax.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxMax.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBoxMax.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBoxMax.Location = new System.Drawing.Point(153, 3);
+            this.groupBoxMax.Name = "groupBoxMax";
+            this.groupBoxMax.Size = new System.Drawing.Size(144, 108);
+            this.groupBoxMax.TabIndex = 1;
+            this.groupBoxMax.TabStop = false;
+            this.groupBoxMax.Text = "Значение максимума (Бета):";
             // 
-            // groupBox1
+            // textBoxMax
             // 
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox1.Location = new System.Drawing.Point(3, 3);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(130, 89);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Значение Альфа:";
+            this.textBoxMax.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBoxMax.Location = new System.Drawing.Point(3, 78);
+            this.textBoxMax.Name = "textBoxMax";
+            this.textBoxMax.Size = new System.Drawing.Size(138, 27);
+            this.textBoxMax.TabIndex = 0;
+            this.textBoxMax.Text = "5";
             // 
-            // textBox1
+            // groupBoxMin
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox1.Location = new System.Drawing.Point(3, 59);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(124, 27);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "1";
+            this.groupBoxMin.Controls.Add(this.textBoxMin);
+            this.groupBoxMin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxMin.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBoxMin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBoxMin.Location = new System.Drawing.Point(3, 3);
+            this.groupBoxMin.Name = "groupBoxMin";
+            this.groupBoxMin.Size = new System.Drawing.Size(144, 108);
+            this.groupBoxMin.TabIndex = 0;
+            this.groupBoxMin.TabStop = false;
+            this.groupBoxMin.Text = "Значение минимума (Альфа):";
+            // 
+            // textBoxMin
+            // 
+            this.textBoxMin.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.textBoxMin.Location = new System.Drawing.Point(3, 78);
+            this.textBoxMin.Name = "textBoxMin";
+            this.textBoxMin.Size = new System.Drawing.Size(138, 27);
+            this.textBoxMin.TabIndex = 0;
+            this.textBoxMin.Text = "1";
             // 
             // buttonВычислить
             // 
@@ -218,19 +231,6 @@
             this.КоличествоЗнаковПослеЗапитой.HeaderText = "Количество знаков после запитой";
             this.КоличествоЗнаковПослеЗапитой.Name = "КоличествоЗнаковПослеЗапитой";
             // 
-            // checkedListBox
-            // 
-            this.checkedListBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkedListBox.FormattingEnabled = true;
-            this.checkedListBox.Items.AddRange(new object[] {
-            "Betta",
-            "Нормальное(Гаусса)",
-            "Равновероятное"});
-            this.checkedListBox.Location = new System.Drawing.Point(3, 23);
-            this.checkedListBox.Name = "checkedListBox";
-            this.checkedListBox.Size = new System.Drawing.Size(260, 63);
-            this.checkedListBox.TabIndex = 0;
-            // 
             // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,12 +243,12 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxN.ResumeLayout(false);
+            this.groupBoxN.PerformLayout();
+            this.groupBoxMax.ResumeLayout(false);
+            this.groupBoxMax.PerformLayout();
+            this.groupBoxMin.ResumeLayout(false);
+            this.groupBoxMin.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -259,12 +259,12 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.GroupBox groupBoxN;
+        private System.Windows.Forms.TextBox textBoxN;
+        private System.Windows.Forms.GroupBox groupBoxMax;
+        private System.Windows.Forms.TextBox textBoxMax;
+        private System.Windows.Forms.GroupBox groupBoxMin;
+        private System.Windows.Forms.TextBox textBoxMin;
         private System.Windows.Forms.Button buttonВычислить;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.DataGridView dataGridView1;

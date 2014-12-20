@@ -60,17 +60,17 @@ namespace WindowsFormsApplication1
                     for (int i = 0; i < n; i++)
                     {
                         x[i] = i;
-                        if (checkedListBox.Items[k] == "Betta")
+                        if (checkedListBox.Items[k].ToString() == "Betta")
                         {
                             y[i] = random.NextBetta(limityMin, limityMax);
                         }
-                        if (checkedListBox.Items[k] == "Нормальное(Гаусса)")
+                        if (checkedListBox.Items[k].ToString() == "Нормальное(Гаусса)")
                         {
-                            y[i] = (limityMax - limityMin) * random.NextGaussian() + (limityMax - limityMin) / 2;
+                            y[i] = (limityMax - limityMin)*(random.NextGaussian() / 6 + 0.5)+1;
                         }
-                        if (checkedListBox.Items[k] == "Равновероятное")
+                        if (checkedListBox.Items[k].ToString() == "Равновероятное")
                         {
-                            y[i] = (limityMax - limityMin) * random.NextDouble() + (limityMax - limityMin) / 2;
+                            y[i] = (limityMax - limityMin) * random.NextDouble()+1;
                         }
                         plot.chart1.Series[0].Points.Add(new System.Windows.Forms.DataVisualization.Charting.DataPoint(x[i], y[i]));
                         plot.chart1.Series[1].Points.Add(new System.Windows.Forms.DataVisualization.Charting.DataPoint(x[i], y[i]));
@@ -105,7 +105,7 @@ namespace WindowsFormsApplication1
         {
             try
             {
-                FillIn(int.Parse(textBox3.Text), double.Parse(textBox1.Text), double.Parse(textBox2.Text));
+                FillIn(int.Parse(textBoxN.Text), double.Parse(textBoxMin.Text), double.Parse(textBoxMax.Text));
             }
             catch (Exception ex)
             {
