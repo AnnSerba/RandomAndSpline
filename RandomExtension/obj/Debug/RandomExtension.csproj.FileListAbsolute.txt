@@ -1,0 +1,15 @@
+C:\Users\Аня\Google Диск\Численные методы\CA\RandomExtension\bin\Debug\RandomExtension.dll
+C:\Users\Аня\Google Диск\Численные методы\CA\RandomExtension\bin\Debug\RandomExtension.pdb
+C:\Users\Аня\Google Диск\Численные методы\CA\RandomExtension\obj\Debug\RandomExtension.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Google Диск\Численные методы\CA\RandomExtension\obj\Debug\RandomExtension.dll
+C:\Users\Аня\Google Диск\Численные методы\CA\RandomExtension\obj\Debug\RandomExtension.pdb
+G:\Dropbox\Открытая\СА\CA\RandomExtension\bin\Debug\RandomExtension.dll
+G:\Dropbox\Открытая\СА\CA\RandomExtension\bin\Debug\RandomExtension.pdb
+G:\Dropbox\Открытая\СА\CA\RandomExtension\obj\Debug\RandomExtension.csprojResolveAssemblyReference.cache
+G:\Dropbox\Открытая\СА\CA\RandomExtension\obj\Debug\RandomExtension.dll
+G:\Dropbox\Открытая\СА\CA\RandomExtension\obj\Debug\RandomExtension.pdb
+D:\Dropbox\Открытая\СА\RandomAndSpline\RandomExtension\bin\Debug\RandomExtension.dll
+D:\Dropbox\Открытая\СА\RandomAndSpline\RandomExtension\bin\Debug\RandomExtension.pdb
+D:\Dropbox\Открытая\СА\RandomAndSpline\RandomExtension\obj\Debug\RandomExtension.csprojResolveAssemblyReference.cache
+D:\Dropbox\Открытая\СА\RandomAndSpline\RandomExtension\obj\Debug\RandomExtension.dll
+D:\Dropbox\Открытая\СА\RandomAndSpline\RandomExtension\obj\Debug\RandomExtension.pdb

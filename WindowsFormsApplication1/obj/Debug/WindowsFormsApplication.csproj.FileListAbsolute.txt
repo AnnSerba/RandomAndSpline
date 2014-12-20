@@ -1,0 +1,14 @@
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\bin\Debug\RandomExtension.dll
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\bin\Debug\Splayn.dll
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\bin\Debug\RandomExtension.pdb
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\bin\Debug\Splayn.pdb
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication.csprojResolveAssemblyReference.cache
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Index.resources
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Charting.resources
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication.csproj.GenerateResource.Cache

@@ -1,0 +1,10 @@
+C:\Users\Аня\Google Диск\Численные методы\CA\Splayn\bin\Debug\Splayn.dll
+C:\Users\Аня\Google Диск\Численные методы\CA\Splayn\bin\Debug\Splayn.pdb
+C:\Users\Аня\Google Диск\Численные методы\CA\Splayn\obj\Debug\Splayn.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Google Диск\Численные методы\CA\Splayn\obj\Debug\Splayn.dll
+C:\Users\Аня\Google Диск\Численные методы\CA\Splayn\obj\Debug\Splayn.pdb
+D:\Dropbox\Открытая\СА\RandomAndSpline\Splayn\bin\Debug\Splayn.dll
+D:\Dropbox\Открытая\СА\RandomAndSpline\Splayn\bin\Debug\Splayn.pdb
+D:\Dropbox\Открытая\СА\RandomAndSpline\Splayn\obj\Debug\Splayn.csprojResolveAssemblyReference.cache
+D:\Dropbox\Открытая\СА\RandomAndSpline\Splayn\obj\Debug\Splayn.dll
+D:\Dropbox\Открытая\СА\RandomAndSpline\Splayn\obj\Debug\Splayn.pdb

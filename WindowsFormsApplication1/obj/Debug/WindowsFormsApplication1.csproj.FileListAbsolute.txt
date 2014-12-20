@@ -1,0 +1,34 @@
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\bin\Debug\Splayn.dll
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\bin\Debug\Splayn.pdb
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.График.resources
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\bin\Debug\RandomExtension.dll
+C:\Users\Аня\Google Диск\Численные методы\CA\WindowsFormsApplication1\bin\Debug\RandomExtension.pdb
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\bin\Debug\RandomExtension.dll
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\bin\Debug\Splayn.dll
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\bin\Debug\RandomExtension.pdb
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\bin\Debug\Splayn.pdb
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Index.resources
+G:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Charting.resources
+D:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Dropbox\Открытая\СА\CA\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
