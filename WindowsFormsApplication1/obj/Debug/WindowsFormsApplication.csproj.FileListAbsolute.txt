@@ -12,3 +12,17 @@ D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\De
 D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Charting.resources
 D:\Dropbox\Открытая\СА\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication.csproj.GenerateResource.Cache
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication.csprojResolveAssemblyReference.cache
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Index.resources
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Charting.resources
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication.csproj.GenerateResource.Cache
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\bin\Debug\RandomExtension.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\bin\Debug\Splayn.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\bin\Debug\RandomExtension.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\WindowsFormsApplication1\bin\Debug\Splayn.pdb
