@@ -1,0 +1,9 @@
+C:\Users\annse\Documents\GitHub\RandomAndSpline\UnitTestSplayn\bin\Debug\UnitTestSplayn.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\UnitTestSplayn\bin\Debug\UnitTestSplayn.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\UnitTestSplayn\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\UnitTestSplayn\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\UnitTestSplayn\obj\Debug\UnitTestSplayn.csprojResolveAssemblyReference.cache
+C:\Users\annse\Documents\GitHub\RandomAndSpline\UnitTestSplayn\obj\Debug\UnitTestSplayn.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\UnitTestSplayn\obj\Debug\UnitTestSplayn.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\UnitTestSplayn\bin\Debug\Splayn.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\UnitTestSplayn\bin\Debug\Splayn.pdb

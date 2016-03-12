@@ -92,9 +92,9 @@
       <Project>{c5caf2fc-d078-4b68-9ed9-4adabbf521c6}</Project>
       <Name>RandomExtension</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Splayn\Splayn.csproj">
+    <ProjectReference Include="..\Splayn\Spline.csproj">
       <Project>{561294a5-df11-41ca-8295-42e94adc626e}</Project>
-      <Name>Splayn</Name>
+      <Name>Spline</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

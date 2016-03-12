@@ -13,3 +13,8 @@ D:\Dropbox\Открытая\СА\RandomAndSpline\RandomExtension\bin\Debug\Rando
 D:\Dropbox\Открытая\СА\RandomAndSpline\RandomExtension\obj\Debug\RandomExtension.csprojResolveAssemblyReference.cache
 D:\Dropbox\Открытая\СА\RandomAndSpline\RandomExtension\obj\Debug\RandomExtension.dll
 D:\Dropbox\Открытая\СА\RandomAndSpline\RandomExtension\obj\Debug\RandomExtension.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\RandomExtension\bin\Debug\RandomExtension.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\RandomExtension\bin\Debug\RandomExtension.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\RandomExtension\obj\Debug\RandomExtension.csprojResolveAssemblyReference.cache
+C:\Users\annse\Documents\GitHub\RandomAndSpline\RandomExtension\obj\Debug\RandomExtension.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\RandomExtension\obj\Debug\RandomExtension.pdb

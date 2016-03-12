@@ -8,3 +8,8 @@ D:\Dropbox\Открытая\СА\RandomAndSpline\Splayn\bin\Debug\Splayn.pdb
 D:\Dropbox\Открытая\СА\RandomAndSpline\Splayn\obj\Debug\Splayn.csprojResolveAssemblyReference.cache
 D:\Dropbox\Открытая\СА\RandomAndSpline\Splayn\obj\Debug\Splayn.dll
 D:\Dropbox\Открытая\СА\RandomAndSpline\Splayn\obj\Debug\Splayn.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\bin\Debug\Splayn.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\bin\Debug\Splayn.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\obj\Debug\Splayn.csprojResolveAssemblyReference.cache
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\obj\Debug\Splayn.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\obj\Debug\Splayn.pdb

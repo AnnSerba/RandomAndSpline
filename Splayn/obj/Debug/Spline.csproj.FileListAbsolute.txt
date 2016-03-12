@@ -1,0 +1,5 @@
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\bin\Debug\Splayn.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\bin\Debug\Splayn.pdb
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\obj\Debug\Spline.csprojResolveAssemblyReference.cache
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\obj\Debug\Splayn.dll
+C:\Users\annse\Documents\GitHub\RandomAndSpline\Splayn\obj\Debug\Splayn.pdb

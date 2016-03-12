@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SplaynNS;
+using SplineNS;
 using RandomExtensionNS;
 
 namespace WindowsFormsApplication1
@@ -15,8 +15,7 @@ namespace WindowsFormsApplication1
     public partial class Index : Form
     {
         Random random = new Random();
-        double[] x;
-        double[] y;
+        SortedList<double, double> Grid;
         public Index()
         {
             
@@ -50,8 +49,7 @@ namespace WindowsFormsApplication1
                     {
                         plot.Text = "Равновероятное распределение";
                     }
-                    x = new double[n];
-                    y = new double[n];
+                    Grid = new SortedList<double, double>();
                     plot.chart1.Series[0].Points.Clear();
                     plot.chart1.Series[1].Points.Clear();
                     plot.chart1.Series[2].Points.Clear();
@@ -59,24 +57,25 @@ namespace WindowsFormsApplication1
 
                     for (int i = 0; i < n; i++)
                     {
-                        x[i] = i;
+                        double y = 0;
                         if (checkedListBox.Items[k].ToString() == "Betta")
                         {
-                            y[i] = random.NextBetta(limityMin, limityMax);
+                            y = random.NextBetta(limityMin, limityMax);
                         }
                         if (checkedListBox.Items[k].ToString() == "Нормальное(Гаусса)")
                         {
-                            y[i] = (limityMax - limityMin)*(random.NextGaussian() / 6 + 0.5)+1;
+                            y = (limityMax - limityMin)*(random.NextGaussian() / 6 + 0.5)+1;
                         }
                         if (checkedListBox.Items[k].ToString() == "Равновероятное")
                         {
-                            y[i] = (limityMax - limityMin) * random.NextDouble()+1;
+                            y = (limityMax - limityMin) * random.NextDouble()+1;
                         }
-                        plot.chart1.Series[0].Points.Add(new System.Windows.Forms.DataVisualization.Charting.DataPoint(x[i], y[i]));
-                        plot.chart1.Series[1].Points.Add(new System.Windows.Forms.DataVisualization.Charting.DataPoint(x[i], y[i]));
-                        plot.dataGridView1.Rows.Add(x[i] + "", y[i] + "");
+                        Grid.Add(i, y);
+                        plot.chart1.Series[0].Points.Add(new System.Windows.Forms.DataVisualization.Charting.DataPoint(i, y));
+                        plot.chart1.Series[1].Points.Add(new System.Windows.Forms.DataVisualization.Charting.DataPoint(i, y));
+                        plot.dataGridView1.Rows.Add(i + "", y + "");
                     }
-                    Splayn splayn = new Splayn();
+                    Spline splayn = new Spline(Grid);
                     for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
                     {
                         try
@@ -85,8 +84,8 @@ namespace WindowsFormsApplication1
                             int resInt = 0;
                             if (double.TryParse(dataGridView1.Rows[i].Cells[0].Value.ToString(), out resDouble) == true && int.TryParse(dataGridView1.Rows[i].Cells[1].Value.ToString(), out resInt))
                             {
-                                plot.chart1.Series[2].Points.Add(new System.Windows.Forms.DataVisualization.Charting.DataPoint(resDouble, Math.Round(splayn.f(resDouble, n, x, y), resInt)));
-                                plot.dataGridView2.Rows.Add(resDouble + "", Math.Round(splayn.f(resDouble, n, x, y), resInt) + "");
+                                plot.chart1.Series[2].Points.Add(new System.Windows.Forms.DataVisualization.Charting.DataPoint(resDouble, Math.Round(splayn.InterpolationPoint(resDouble, n), resInt)));
+                                plot.dataGridView2.Rows.Add(resDouble + "", Math.Round(splayn.InterpolationPoint(resDouble, n), resInt) + "");
                             }
                             else
                             {

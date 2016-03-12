@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication", "WindowsFormsApplication1\WindowsFormsApplication.csproj", "{451AE18C-002D-4AA2-9644-528580011716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splayn", "Splayn\Splayn.csproj", "{561294A5-DF11-41CA-8295-42E94ADC626E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spline", "Splayn\Spline.csproj", "{561294A5-DF11-41CA-8295-42E94ADC626E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExtension", "RandomExtension\RandomExtension.csproj", "{C5CAF2FC-D078-4B68-9ED9-4ADABBF521C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSplayn", "UnitTestSplayn\UnitTestSplayn.csproj", "{E35B85BD-D77E-4A7E-9118-4B9F0A7C9AAE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{561294A5-DF11-41CA-8295-42E94ADC626E} = {561294A5-DF11-41CA-8295-42E94ADC626E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +32,10 @@ Global
 		{C5CAF2FC-D078-4B68-9ED9-4ADABBF521C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5CAF2FC-D078-4B68-9ED9-4ADABBF521C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5CAF2FC-D078-4B68-9ED9-4ADABBF521C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35B85BD-D77E-4A7E-9118-4B9F0A7C9AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35B85BD-D77E-4A7E-9118-4B9F0A7C9AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35B85BD-D77E-4A7E-9118-4B9F0A7C9AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35B85BD-D77E-4A7E-9118-4B9F0A7C9AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
